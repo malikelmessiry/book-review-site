@@ -1,0 +1,22 @@
+* {
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
+/* .book-name {
+    font-style: italic;
+} */
+
+header, footer {
+    border: .7rem solid purple;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(179, 98, 174);
+}
+
+main {
+    background-color: rgb(39, 35, 35);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(166, 145, 113);
+}
