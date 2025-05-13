@@ -1,5 +1,5 @@
 * {
-    /* margin: 0; */
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -15,8 +15,20 @@ header, footer {
     background-color: rgb(179, 98, 174);
 }
 
-main {
+main, nav {
     background-color: rgb(39, 35, 35);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(166, 145, 113);
+}
+
+.books {
+    list-style-type: none;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+nav a:hover {
+    color: cornflowerblue;
 }
